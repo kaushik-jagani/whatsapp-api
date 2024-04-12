@@ -17,7 +17,7 @@ let whatsappClients = {};
 let store;
 
 
-mongoose.connect('mongodb://122.170.99.166:27017/RefactorDB')
+mongoose.connect('mongodb://127.0.0.1:27017/RefactorDB')
 .then(() => {
     store = new MongoStore({ mongoose });
 })
